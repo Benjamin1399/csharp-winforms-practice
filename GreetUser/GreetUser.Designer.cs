@@ -34,6 +34,7 @@
             this.firstNameTextBox = new System.Windows.Forms.TextBox();
             this.lastNameTextBox = new System.Windows.Forms.TextBox();
             this.greetButton = new System.Windows.Forms.Button();
+            this.goodbyeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // headingLabel
@@ -81,7 +82,7 @@
             // 
             // greetButton
             // 
-            this.greetButton.Location = new System.Drawing.Point(354, 181);
+            this.greetButton.Location = new System.Drawing.Point(260, 182);
             this.greetButton.Name = "greetButton";
             this.greetButton.Size = new System.Drawing.Size(140, 42);
             this.greetButton.TabIndex = 3;
@@ -89,11 +90,21 @@
             this.greetButton.UseVisualStyleBackColor = false;
             this.greetButton.Click += new System.EventHandler(this.greetButton_Click);
             // 
+            // goodbyeButton
+            // 
+            this.goodbyeButton.Location = new System.Drawing.Point(680, 182);
+            this.goodbyeButton.Name = "goodbyeButton";
+            this.goodbyeButton.Size = new System.Drawing.Size(168, 42);
+            this.goodbyeButton.TabIndex = 4;
+            this.goodbyeButton.Text = "GoodBye";
+            this.goodbyeButton.UseVisualStyleBackColor = false;
+            // 
             // GreetUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 260);
+            this.Controls.Add(this.goodbyeButton);
             this.Controls.Add(this.greetButton);
             this.Controls.Add(this.lastNameTextBox);
             this.Controls.Add(this.firstNameTextBox);
@@ -117,6 +128,7 @@
         private System.Windows.Forms.TextBox firstNameTextBox;
         private System.Windows.Forms.TextBox lastNameTextBox;
         private System.Windows.Forms.Button greetButton;
+        private System.Windows.Forms.Button goodbyeButton;
     }
 }
 
