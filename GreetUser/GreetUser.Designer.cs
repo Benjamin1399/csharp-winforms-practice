@@ -87,6 +87,7 @@
             this.greetButton.TabIndex = 3;
             this.greetButton.Text = "Greet Me";
             this.greetButton.UseVisualStyleBackColor = false;
+            this.greetButton.Click += new System.EventHandler(this.greetButton_Click);
             // 
             // GreetUser
             // 

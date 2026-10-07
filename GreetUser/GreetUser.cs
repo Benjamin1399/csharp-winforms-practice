@@ -16,5 +16,13 @@ namespace GreetUser
         {
             InitializeComponent();
         }
+
+        private void greetButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"Hello, {firstNameTextBox.Text} {lastNameTextBox.Text}", 
+                "Greeting Application",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Exclamation);
+        }
     }
 }
