@@ -23,6 +23,15 @@ namespace GreetUser
                 "Greeting Application",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Exclamation);
+
+            ResetDataEntryUI();
+        }
+
+        private void ResetDataEntryUI()
+        {
+            firstNameTextBox.Clear();
+            lastNameTextBox.Clear();
+            firstNameTextBox.Focus();
         }
     }
 }
