@@ -98,6 +98,7 @@
             this.goodbyeButton.TabIndex = 4;
             this.goodbyeButton.Text = "GoodBye";
             this.goodbyeButton.UseVisualStyleBackColor = false;
+            this.goodbyeButton.Click += new System.EventHandler(this.goodbyeButton_Click);
             // 
             // GreetUser
             // 

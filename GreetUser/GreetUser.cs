@@ -33,5 +33,10 @@ namespace GreetUser
             lastNameTextBox.Clear();
             firstNameTextBox.Focus();
         }
+
+        private void goodbyeButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
