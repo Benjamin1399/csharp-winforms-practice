@@ -36,7 +36,7 @@ namespace GreetUser
 
         private void goodbyeButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Good Bye!, {firstNameTextBox.Text} {lastNameTextBox.Text}",
+            MessageBox.Show("Good Bye!",
                 "Greeting Application now closing",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Warning);
