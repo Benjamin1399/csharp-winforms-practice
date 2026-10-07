@@ -19,10 +19,10 @@ namespace GreetUser
 
         private void greetButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"Hello, {firstNameTextBox.Text} {lastNameTextBox.Text}", 
+            MessageBox.Show($"Hello, {firstNameTextBox.Text} {lastNameTextBox.Text}",
                 "Greeting Application",
                 MessageBoxButtons.OK,
-                MessageBoxIcon.Exclamation);
+                MessageBoxIcon.Information);
 
             ResetDataEntryUI();
         }
@@ -36,6 +36,10 @@ namespace GreetUser
 
         private void goodbyeButton_Click(object sender, EventArgs e)
         {
+            MessageBox.Show($"Good Bye!, {firstNameTextBox.Text} {lastNameTextBox.Text}",
+                "Greeting Application now closing",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Warning);
             Application.Exit();
         }
     }
